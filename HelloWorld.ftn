@@ -1,0 +1,16 @@
+program soma_numeros
+    implicit none
+    integer :: num1, num2, soma
+
+    ! Solicita ao usuário os números para somar
+    print *, "Digite o primeiro número: "
+    read *, num1
+    print *, "Digite o segundo número: "
+    read *, num2
+
+    ! Realiza a soma
+    soma = num1 + num2
+
+    ! Exibe o resultado
+    print *, "A soma de ", num1, " e ", num2, " é: ", soma
+end program soma_numeros
